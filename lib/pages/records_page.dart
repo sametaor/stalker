@@ -16,7 +16,6 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-
 // ignore_for_file: use_build_context_synchronously
 
 import 'dart:io';
@@ -27,6 +26,7 @@ import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:stalker/app.dart';
 import 'package:stalker/record.dart';
 import 'package:stalker/records_manager.dart';
 import 'package:uuid/uuid.dart';
@@ -204,51 +204,39 @@ class _RecordsPageState extends State<RecordsPage> {
         files: [XFile(file.path, name: "users.xml", mimeType: "text/plain")]));
   }
 
-  Future<void> import(Record record) async {
-    await showDialog(
-        context: context,
-        builder: (ctx) => AlertDialog(
-              title: const Text("Are you sure?"),
-              content: const Text(
-                "This will overwrite your save file with a new one!",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-              ),
-              actions: [
-                TextButton(
-                    onPressed: () => Navigator.of(ctx).pop(),
-                    child: const Text("Cancel")),
-                TextButton(
-                    onPressed: () async {
-                      Navigator.of(ctx).pop();
-                      final result = await FilePicker.platform.pickFiles(
-                          dialogTitle: "Pick a save file",
-                          type: FileType.custom,
-                          allowedExtensions: ["xml"]);
-                      if (result != null &&
-                          result.files.isNotEmpty &&
-                          result.files.first.path != null) {
-                        final file = File(result.files.first.path!);
-                        final content = await file.readAsString();
+  void import(Record record) {
+    showConfirmationDialog(
+        const Text("Are you sure?"),
+        const Text(
+          "This will overwrite your save file with a new one!",
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+        ),
+        context, (ctx) async {
+      Navigator.of(ctx).pop();
+      final result = await FilePicker.platform.pickFiles(
+          dialogTitle: "Pick a save file",
+          type: FileType.custom,
+          allowedExtensions: ["xml"]);
+      if (result != null &&
+          result.files.isNotEmpty &&
+          result.files.first.path != null) {
+        final file = File(result.files.first.path!);
+        final content = await file.readAsString();
 
-                        try {
-                          final newSave = Record(
-                              XmlDocument.parse(content), record.metadata);
-                          setState(() {
-                            RecordsManager.records[RecordsManager.records
-                                .indexOf(record)] = newSave;
-                          });
-                          RecordsManager.saveRecord(newSave);
-                          Fluttertoast.showToast(
-                              msg: "Successfully imported the save file");
-                        } catch (e) {
-                          Fluttertoast.showToast(msg: e.toString());
-                          return;
-                        }
-                      }
-                    },
-                    child: const Text("Proceed"))
-              ],
-            ));
+        try {
+          final newSave = Record(XmlDocument.parse(content), record.metadata);
+          setState(() {
+            RecordsManager.records[RecordsManager.records.indexOf(record)] =
+                newSave;
+          });
+          RecordsManager.saveRecord(newSave);
+          Fluttertoast.showToast(msg: "Successfully imported the save file");
+        } catch (e) {
+          Fluttertoast.showToast(msg: e.toString());
+          return;
+        }
+      }
+    });
   }
 
   @override
@@ -270,7 +258,7 @@ class _RecordsPageState extends State<RecordsPage> {
 
   Future<void> _showNewRecordDialog(BuildContext context) async {
     final controller = TextEditingController();
-    showDialog(
+    await showDialog(
         context: context,
         builder: (ctx) => AlertDialog(
               title: const Text("Create a new save record"),
@@ -313,37 +301,26 @@ class _RecordsPageState extends State<RecordsPage> {
                     },
                     child: const Text("Continue"))
               ],
-            )).then((_) {
-              Future.delayed(Duration.zero, () {
-                controller.dispose();
-              });
-            });
+            ));
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      controller.dispose();
+    });
   }
 
   Future<void> _showRecordDeletionDialog(
       BuildContext context, Record record) async {
-    showDialog(
-        context: context,
-        builder: (ctx) => AlertDialog(
-              title: const Text("Are you sure?"),
-              content: const Text(
-                "This will forever delete this save slot with all of the contents!",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-              ),
-              actions: [
-                TextButton(
-                    onPressed: () => Navigator.of(ctx).pop(),
-                    child: const Text("Cancel")),
-                TextButton(
-                    onPressed: () async {
-                      Navigator.of(ctx).pop();
-                      setState(() {
-                        RecordsManager.records.remove(record);
-                      });
-                      await RecordsManager.deleteRecord(record);
-                    },
-                    child: const Text("Delete"))
-              ],
-            ));
+    await showConfirmationDialog(
+        const Text("Are you sure?"),
+        const Text(
+          "This will forever delete this save slot with all of the contents!",
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+        ),
+        context, (ctx) async {
+      Navigator.of(ctx).pop();
+      setState(() {
+        RecordsManager.records.remove(record);
+      });
+      await RecordsManager.deleteRecord(record);
+    });
   }
 }

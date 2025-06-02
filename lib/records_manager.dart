@@ -80,11 +80,9 @@ class RecordsManager {
   }
 
   static String formatXml(String xml) {
-    // Remove newline followed by optional whitespace
     final reNewlines = RegExp(r'\n\s*');
     final noNewlines = xml.replaceAll(reNewlines, '');
 
-    // Remove extra whitespace after the XML declaration
     final reXmlDecl = RegExp(r'(<\?xml[^>]+\?>)\s*');
     final formatted =
         noNewlines.replaceAllMapped(reXmlDecl, (match) => match.group(1)!);

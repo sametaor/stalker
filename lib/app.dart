@@ -83,6 +83,23 @@ void showFatalErrorDialog(
   });
 }
 
+Future<void> showConfirmationDialog(Widget title, Widget content, BuildContext context, void Function(BuildContext) onConfirm) async {
+    showDialog(
+        context: context,
+        builder: (ctx) => AlertDialog(
+              title: title,
+              content: content,
+              actions: [
+                TextButton(
+                    onPressed: () => Navigator.of(ctx).pop(),
+                    child: const Text("Cancel")),
+                TextButton(
+                    onPressed: () => onConfirm(ctx),
+                    child: const Text("Confirm"))
+              ],
+            ));
+  }
+
 class _AppState extends State<App> {
   static final List<Widget> pages = [
     const RecordsPage(),

@@ -97,12 +97,12 @@ class _AboutPageState extends State<AboutPage> {
                     ),
                     Row(
                       children: [
-                        const Text("Discord: ",
+                        const Text("GitHub: ",
                             style: TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.bold)),
                         Flexible(
                             child: _makeHyperlink(
-                                "https://discord.com/users/711921484943327273")),
+                                "https://github.com/onerdna")),
                       ],
                     ),
                     const Divider(),
@@ -127,6 +127,24 @@ class _AboutPageState extends State<AboutPage> {
                         Flexible(
                             child: _makeHyperlink(
                                 "https://discord.gg/ThDBZztuJu")),
+                      ],
+                    ),
+                    const Divider(),
+                    const Text("Contributors",
+                        style: TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.bold)),
+                    const Divider(),
+                    const Text("sametaor",
+                        style: TextStyle(
+                            fontSize: 16, fontWeight: FontWeight.bold)),
+                    Row(
+                      children: [
+                        const Text("GitHub: ",
+                            style: TextStyle(
+                                fontSize: 16, fontWeight: FontWeight.bold)),
+                        Flexible(
+                            child: _makeHyperlink(
+                                "https://github.com/sametaor/")),
                       ],
                     ),
                     const Divider(),

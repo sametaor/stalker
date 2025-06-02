@@ -28,7 +28,7 @@ Future<String> readFile(String path) async {
 
   final file = makeTempFile(directory.path);
 
-  parseCpOutput(
+  validateCpOutput(
       file.path, await ShizukuApi.runCommand("cp $path ${file.path}"));
 
   final contents = await file.readAsString();
@@ -37,7 +37,7 @@ Future<String> readFile(String path) async {
   return contents;
 }
 
-String parseCpOutput(String path, String? output) {
+String validateCpOutput(String path, String? output) {
   if (output == null) {
     throw FileSystemException('Unable to read file: unknown error', path);
   }
@@ -65,7 +65,7 @@ Future<void> writeFile(String targetPath, String contents) async {
   final directory = (await getExternalStorageDirectory())!;
   final file = makeTempFile(directory.path);
   await file.writeAsString(contents);
-  parseCpOutput(
+  validateCpOutput(
       targetPath, await ShizukuApi.runCommand("cp ${file.path} $targetPath"));
   await ShizukuApi.runCommand("rm ${file.path}");
 }

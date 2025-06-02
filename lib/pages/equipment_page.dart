@@ -16,13 +16,13 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-
 // ignore_for_file: use_build_context_synchronously
 
 import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:stalker/app.dart';
 import 'package:stalker/enchantment.dart';
 import 'package:stalker/equipment_type.dart';
 import 'package:stalker/equipment.dart';
@@ -217,25 +217,42 @@ class _EquipmentTypePageState extends State<EquipmentTypePage> {
                         children: [
                           IconButton(
                             icon: const Icon(Icons.delete),
-                            onPressed: () {
+                            onPressed: () => showConfirmationDialog(
+                                const Text("Are you sure"),
+                                const Text(
+                                  "This item will be deleted from your inventory",
+                                  style: TextStyle(fontSize: 16),
+                                ),
+                                context, (ctx) {
+                              Navigator.of(ctx).pop();
                               setState(() {
                                 equipment.remove(item);
                               });
-                            },
+                            }),
                           ),
-                          Expanded(child: Text(item.name))
+                          Expanded(child: Text(item.name)),
+                          isEquipped
+                              ? const Text(
+                                  "Equipped",
+                                  style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 14),
+                                )
+                              : const SizedBox.shrink()
                         ],
                       ),
-                      subtitle: isEquipped
-                          ? const Padding(
-                              padding: EdgeInsets.only(left: 48.0),
-                              child: Text(
-                                "Equipped",
-                                style: TextStyle(fontWeight: FontWeight.bold),
-                              ),
-                            )
-                          : null,
+                      subtitle: Padding(
+                        padding: const EdgeInsets.only(left: 24.0, bottom: 8),
+                        child: Text(item.id),
+                      ),
                       children: [
+                        Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Text(
+                            item.description,
+                            style: const TextStyle(fontSize: 14),
+                          ),
+                        ),
                         Padding(
                           padding: const EdgeInsets.only(left: 16.0),
                           child: ExpansionTile(
@@ -249,13 +266,14 @@ class _EquipmentTypePageState extends State<EquipmentTypePage> {
                                       title: Row(
                                         children: [
                                           Expanded(
-                                              child:
-                                                  Text(applied.enchantment.name)),
+                                              child: Text(
+                                                  applied.enchantment.name)),
                                           const Spacer(),
                                           IconButton(
                                             onPressed: () {
                                               setState(() {
-                                                item.enchantments.remove(applied);
+                                                item.enchantments
+                                                    .remove(applied);
                                               });
                                             },
                                             icon: const Icon(
@@ -390,17 +408,7 @@ class _EquipmentTypePageState extends State<EquipmentTypePage> {
               }),
               ListTile(
                 title: FilledButton(
-                  onPressed: () {
-                    showNewEquipmentDialog().future.then((equipmentId) {
-                      if (equipmentId != null) {
-                        setState(() {
-                          RecordsManager.activeRecord!.equipment[widget.type]!
-                              .add(Equipment(widget.type, equipmentId, 1, 0));
-                          Navigator.of(context).pop();
-                        });
-                      }
-                    });
-                  },
+                  onPressed: () => showNewEquipmentDialog(),
                   child: const Text("Add..."),
                 ),
               ),
@@ -482,10 +490,9 @@ class _EquipmentTypePageState extends State<EquipmentTypePage> {
     return selected;
   }
 
-  Completer<String?> showNewEquipmentDialog() {
-    Completer<String?> equipmentId = Completer();
+  Future<void> showNewEquipmentDialog() async {
     final controller = TextEditingController();
-    showDialog(
+    await showDialog(
       context: context,
       builder: (context) => AlertDialog(
         title: const Text("Add a new item"),
@@ -503,20 +510,20 @@ class _EquipmentTypePageState extends State<EquipmentTypePage> {
           TextButton(
             onPressed: () {
               if (controller.text.isNotEmpty) {
-                equipmentId.complete(controller.text);
+                setState(() {
+                  RecordsManager.activeRecord!.equipment[widget.type]!
+                      .add(Equipment(widget.type, controller.text, 1, 0));
+                });
+                Navigator.of(context).pop();
               }
             },
             child: const Text("Add"),
           ),
         ],
       ),
-    ).then((_) {
-      if (!equipmentId.isCompleted) {
-        equipmentId.complete(null);
-        controller.dispose();
-      }
+    );
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      controller.dispose();
     });
-
-    return equipmentId;
   }
 }

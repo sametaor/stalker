@@ -19,4 +19,5 @@
 class ItemDatabase {
   static var dictionary = {};
   static String resolveName(String id) => dictionary[id]?["name"] ?? id;
+  static String resolveDescription(String id) => dictionary[id]?["description"] ?? "";
 }
