@@ -209,7 +209,7 @@ traits = ["unobtainable"]
 
 [BODY_CANDY]
 name = "Candy's Body"
-traits = ["unobtainable"]
+traits = ["xmas17", "xmas20", "ny18", "ny21", "unobtainable"]
 
 [BODY_FEAR]
 name = "Tenebris's Body"
@@ -258,7 +258,7 @@ traits = ["unobtainable"]
 
 [BODY_SON_OF_THE_SUN]
 name = "Son of the Sun's Body"
-traits = ["unobtainable"]
+traits = ["chny24", "unobtainable"]
 
 [BODY_TENTACLE_SKELETON]
 name = ""
@@ -273,26 +273,26 @@ traits = []
 [BODY_LYNX]
 name = "Lynx's Body"
 description = "Lynx wears a customized Leather Jacket with a denser appearance and a belt attached to it."
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [BODY_BUTCHER]
 name = "Butcher's Body"
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [ARMOR_WASP]
 name = "Wasp's Armor"
 description = "Wasp seems to wear a highly-stylized feminine Snake Harness, with added cuffed long sleeves and trousers."
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [ARMOR_HUNTRESS]
 name = "Huntress's Armor"
 description = "Widow seems to wear a highly-stylized feminine Snake Harness, which has draping sleeves and a skirt."
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [ARMOR_SHOGUN]
 name = "Shogun's Armor"
 description = "Shogun wears a type of Centurion Mail, which is bigger in size, has visible pants without the hanging plates, and a wakizashi sheath."
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [BODY_FUTURE_MAY]
 name = "Future May's Body"
@@ -301,7 +301,7 @@ traits = ["unobtainable"]
 
 [BODY_TITAN]
 name = "Titan's Body"
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [BERSTUUK_BODY]
 name = "Berstuuk's Body"
@@ -445,11 +445,11 @@ traits = ["unobtainable"]
 
 [BODY_RAVANA]
 name = "Ravana's Body"
-traits = ["unobtainable"]
+traits = ["ram_navami21", "unobtainable"]
 
 [BODY_WHISPER]
 name = "Whisper's Body"
-traits = ["unobtainable"]
+traits = ["vd17", "vd20", "vd24", "unobtainable"]
 
 [HEAD_SCAVENGER_1]
 name = "Scavenger's Head"
@@ -481,7 +481,7 @@ traits = ["unobtainable"]
 
 [HEAD_RAVANA]
 name = "Ravana's Head"
-traits = ["unobtainable"]
+traits = ["ram_navami21", "unobtainable"]
 
 [HEAD_MEPHISTO]
 name = "Mephisto's Head"
@@ -491,16 +491,16 @@ traits = ["unobtainable"]
 [HEAD_LYNX]
 name = "Lynx's Head"
 description = "Lynx wears a modified Light Helm with an additional bandana."
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [HEAD_HERMIT]
 name = "Hermit's Head"
 description = "Hermit wears a wider Conical Hat with visible hair under the hat and a beard and moustache."
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [HEAD_BUTCHER]
 name = "Butcher's Head"
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [HEAD_RHINO]
 name = "Rhino's Head"
@@ -509,16 +509,16 @@ traits = ["unobtainable"]
 
 [HEAD_WASP]
 name = "Wasp's Head"
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [HEAD_HUNTRESS]
 name = "Huntress's Head"
 description = ""
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [HEAD_TITAN]
 name = "Titan's Head"
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [HEAD_SHROUD]
 name = "Shroud's Head"
@@ -621,7 +621,7 @@ traits = ["unobtainable"]
 [HEAD_CANDY]
 name = "Candy's Head"
 description = "Candy wears a Fur-Ear Flap helm with strips attached made to resemble long hair."
-traits = ["unobtainable"]
+traits = ["xmas17", "xmas20", "ny18", "ny21", "unobtainable"]
 
 [HEAD_NIGHT]
 name = ""
@@ -637,7 +637,7 @@ traits = ["unobtainable"]
 
 [HEAD_WHISPER]
 name = "Whisper's Head"
-traits = ["unobtainable"]
+traits = ["hw17", "hw20", "hw24", "unobtainable"]
 
 [HEAD_MONKEY]
 name = "Monkey's Head"
@@ -680,7 +680,7 @@ enchantments = ["predators_fury"]
 [RANGED_TITANS_HARPOON]
 name = "Titan's Harpoon"
 description = "Titan uses his extendable hand as his ranged weapon. A mechanical hand shoots out from Titan's arm like a harpoon, which hooks onto Shadow and pulls him towards Titan. He then impales Shadow with his sword and kicks him, knocking him backward. In case the player manages to dodge it, the hand still can hook onto them when it is returning back to Titan."
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [RANGED_WAR_AXES]
 name = "War Axes"
@@ -715,17 +715,17 @@ traits = ["unobtainable"]
 [MAGIC_MIND_THROW]
 name = "Mind Throw"
 description = "Titan forms a blue energy orb in his hand, then sends another towards the player while holding the original. On impact, Shadow is choked and becomes immobile. Titan then uses the orb to lift Shadow, hold him slightly and slam him back onto the ground."
-traits = ["unobtainable"]
+traits = ["boss", "unobtainable"]
 
 [MAGIC_BUTCHER_EARTHQUAKE]
 name = ""
 description = ""
-traits = []
+traits = ["boss", "unobtainable"]
 
 [MAGIC_ARCANE_BALL]
 name = ""
 description = ""
-traits = []
+traits = ["unobtainable"]
 
 [MAGIC_C3_z3]
 name = ""
@@ -745,7 +745,7 @@ traits = ["unobtainable"]
 [MAGIC_MINE]
 name = ""
 description = ""
-traits = []
+traits = ["unobtainable"]
 
 [MAGIC_RAT_WAVE]
 name = "Rat Wave"
@@ -764,7 +764,7 @@ traits = ["unobtainable"]
 [MAGIC_VERTICAL_TRIGGER]
 name = ""
 description = ""
-traits = []
+traits = ["unobtainable"]
 
 [MAGIC_WAR_WHIRL]
 name = "War Whirl"
@@ -779,7 +779,7 @@ traits = ["unobtainable"]
 [MAGIC_ENERGY_BALL_PINK_25]
 name = "Thorn Dome"
 description = "Thorn Dome is a magic in Shadow Fight 2. This magic was available in a weekly offer for real money for $2.99."
-traits = []
+traits = ["offer"]
 
 [MAGIC_FEAR_RAY]
 name = "Fear Ray"
@@ -843,19 +843,19 @@ enchantments = ["typhoon_of_spirits"]
 [ARMOR_XMAS16_SANTA]
 name = "Winter Breath Jacket"
 description = ""
-traits = ["xmas16"]
+traits = ["xmas16", "ny17"]
 enchantments = ["regeneration"]
 
 [HELM_XMAS16_HORNS]
 name = "Christmas Trophy"
 description = ""
-traits = ["xmas16"]
+traits = ["xmas16", "ny17"]
 enchantments = ["damage_return"]
 
 [HELM_XMAS16_SANTA]
 name = "Frost Beard"
 description = ""
-traits = ["xmas16"]
+traits = ["xmas16", "ny17"]
 enchantments = ["regeneration"]
 
 [WEAPON_XMAS16_CANDY]
@@ -864,7 +864,7 @@ description = """
 Candy Rage are a 2016 Christmas special weapon in Shadow Fight 2. They were one of the possible rewards which could be won by defeating Freeze, the 2016 Christmas special raid-boss. They were also obtainable from the Crystal Ice Chest, which could be bought from the shop during the Christmas 2016 update. Candy Rage comes enchanted with the Stun enchantment.
 In the 2019 Christmas update, Candy Rage comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest. 
 """
-traits = ["xmas16", "xmas19"]
+traits = ["xmas16", "ny17"]
 enchantments = ["stun"]
 
 [WEAPON_XMAS16_GLAIVE]
@@ -873,13 +873,13 @@ description = """
 Ringing Spruce Whirl is a 2016 Christmas special weapon in Shadow Fight 2. It is used by Freeze, the 2016 Christmas special raid-boss. It was one of the possible rewards which could be won by defeating Freeze. It was also obtainable from the Crystal Ice Chest, which could be bought from the shop during the Christmas 2016 update. Ringing Spruce Whirl functions similar to Glaive and comes enchanted with the Enfeeble enchantment.
 In the 2019 Christmas update, Ringing Spruce Whirl comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest.
 """
-traits = ["xmas16", "xmas19"]
+traits = ["xmas16", "ny17"]
 enchantments = ["enfeeble"]
 
 [RANGED_XMAS16_COOKIE]
 name = "Gingerbread Surprises"
 description = ""
-traits = ["xmas16"]
+traits = ["xmas16", "ny17"]
 enchantments = ["time_bomb"]
 
 [ARMOR_VAL18_HOODIE]
@@ -909,25 +909,33 @@ enchantments = ["overheat"]
 [ARMOR_CHNY18_TRADITIONAL]
 name = "Dragon's Scale"
 description = ""
-traits = ["chny18", "nintendo_switch_edition"]
+traits = ["vd18", "chny18", "nintendo_switch_edition"]
 enchantments = ["damage_return"]
 
 [HELM_CHNY18_TRADITIONAL]
 name = "Hat of Generous Gifts"
 description = ""
-traits = ["chny18", "nintendo_switch_edition"]
+traits = ["vd18", "chny18", "nintendo_switch_edition"]
 enchantments = ["frenzy"]
 
 [ARMOR_NY18_MANTLE]
 name = "Padded Jacket"
 description = ""
-traits = ["xmas17", "xmas19", "nintendo_switch_edition"]
+traits = ["xmas17", "ny18", "nintendo_switch_edition"]
 enchantments = ["shielding"]
 
 [HELM_NY18_HAT]
 name = "Fur Ear-Flap"
 description = ""
-traits = ["xmas17", "xmas21", "nintendo_switch_edition"]
+traits = [
+  "xmas17",
+  "xmas20",
+  "xmas21",
+  "ny18",
+  "ny21",
+  "ny22",
+  "nintendo_switch_edition",
+]
 enchantments = ["critical_protection"]
 
 [WEAPON_NY18_AXES]
@@ -936,7 +944,7 @@ description = """
 Surprise Waffles are a New Year 2018 and 2019 special weapon in Shadow Fight 2. They are a pair of giant rooster-shaped lollipops. Surprise Waffles could be obtained as a possible reward by purchasing the Gingerbread Chest during New Year 2018. In order to purchase the chest, players needed 250 new year coins or 199 gems. New year coins could be obtained by defeating Candy, the New Year 2018 special raid-boss. Candy herself wields these weapons. Surprise Waffles were also obtainable during New Year 2019, as a possible first place reward for defeating Karcer. The weapons come enchanted with the Stun enchantment.
 In the 2019 Christmas update, Surprise Waffles comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest. 
 """
-traits = ["nintendo_switch_edition", "xmas17", "xmas19"]
+traits = ["nintendo_switch_edition", "xmas17", "xmas18", "ny18", "ny19"]
 enchantments = ["stun"]
 
 [WEAPON_NY18_MACE]
@@ -944,20 +952,20 @@ name = "Caramel Boom"
 description = """Caramel Boom is a New Year 2018 and 2019 special weapon in Shadow Fight 2. It is a giant green lollipop with red spikes on it. The weapon could be obtained as a possible reward by purchasing the Gingerbread Chest during New Year 2018. In order to purchase the chest, players needed 250 New Year coins or 199 gems. New Year coins could be obtained by defeating Candy, the New Year 2018 special raid-boss. Caramel Boom was also obtainable during New Year 2019, as a possible first place reward for defeating Karcer. The weapon comes enchanted with the Poisoning enchantment. Caramel Boom functions like the Two-handed Mace.
 In the 2019 Christmas update, Caramel Boom comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest.
 The Caramel Boom can also be purchased as an regular weapon in the Nintendo Switch version of SF2."""
-traits = ["nintendo_switch_edition", "xmas17", "xmas19"]
+traits = ["nintendo_switch_edition", "xmas17", "xmas18", "ny18", "ny19"]
 enchantments = ["poisoning"]
 
 [RANGED_NY18_DONUT]
 name = "Juicy Donut"
 description = ""
-traits = ["xmas17", "nintendo_switch_edition"]
+traits = ["xmas17", "ny18", "xmas20", "ny21", "nintendo_switch_edition"]
 enchantments = ["poisoning"]
 
 [MAGIC_NY18_SNOWBALL]
 name = "Sugar Flash"
 description = """Sugar Flash is the New Year 2018 and 2019 special magic amulet in Shadow Fight 2. It can be obtained as a possible reward by purchasing the Gingerbread Chest during New Year 2018. In order to purchase the chest, players need 250 mint coins or 199 gems. Mint coins can be obtained by defeating Candy, the New Year 2018 special raid-boss. Candy herself uses this magic. It is enchanted with the Stun enchantment, and functions like the Minor Charge of Darkness.
 In the 2019 Christmas update, Sugar Flash comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest."""
-traits = ["xmas17"]
+traits = ["xmas17", "ny18"]
 enchantments = ["stun"]
 
 [ARMOR_HW16_SET]
@@ -981,7 +989,7 @@ enchantments = ["magic_recharge"]
 [RANGED_HW16_SET]
 name = "Demon's Wing"
 description = ""
-traits = ["hw16", "special_edition", "nintendo_switch_edition"]
+traits = ["hw16", "hw18", "special_edition", "nintendo_switch_edition"]
 enchantments = ["stun"]
 
 [WEAPON_1_HW16_SET]
@@ -1003,7 +1011,7 @@ enchantments = ["bleeding"]
 name = "Shard of Eternal Ice"
 description = """Shard of Eternal Ice is a magic in Shadow Fight 2. It was obtainable from the Christmas 2016 Special chest. In the Special Edition, this magic is available in the shop. It is used by the Christmas 2016 special Raid-boss, Freeze.
 In the 2019 Christmas update, Shard of Eternal Ice comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest."""
-traits = ["xmas16", "special_edition", "nintendo_switch_edition"]
+traits = ["xmas16", "ny17", "special_edition", "nintendo_switch_edition"]
 enchantments = ["bloodrage"]
 
 [RANGED_VAL17_AXE]
@@ -1035,6 +1043,7 @@ traits = [
   "special_edition",
   "nintendo_switch_edition",
   "vd17",
+  "vd19",
   "vd20",
   "vd21",
   "vd23",
@@ -1047,7 +1056,7 @@ enchantments = [
 [WEAPON_VAL17_SAI]
 name = "Vermeil Fangs"
 description = "Vermeil Fangs are a 2017 Valentine's Day special weapon in Shadow Fight 2. They were obtainable during the Valentine's Day 2017,2020,2021 and 2023 updates, as a first-place reward by defeating raid-bosses (Vortex, Fatum, Arkhos, or Hoaxen), or by purchasing the Casket of Fates and Ruby Treasure Chest. Vermeil Fangs are enchanted with Magic Recharge. In the Special Edition, they are available in the shop to be bought."
-traits = ["special_edition", "vd17", "vd20", "vd21", "vd23"]
+traits = ["special_edition", "vd17", "vd19", "vd20", "vd21", "vd23"]
 enchantments = [
   "magic_recharge", # (2017-2023)
   "poisoning",      # (2024-present)
@@ -1056,13 +1065,13 @@ enchantments = [
 [HELM_VAL17_WINGS]
 name = "Helm of Inspiration"
 description = ""
-traits = ["vd17", "special_edition", "nintendo_switch_edition"]
+traits = ["vd17", "vd19", "special_edition", "nintendo_switch_edition"]
 enchantments = ["regeneration"]
 
 [ARMOR_VAL17_MANTLE]
 name = "Poetic Mantle"
 description = ""
-traits = ["vd17", "special_edition", "nintendo_switch_edition"]
+traits = ["vd17", "vd19", "special_edition", "nintendo_switch_edition"]
 enchantments = ["damage_absorption", "rejuvenation"]
 
 [WEAPON_C2_Z2_MONK_KATAR]
@@ -1232,7 +1241,7 @@ enchantments = ["bloodrage"]
 [WEAPON_CHINESE_SWORDS]
 name = "Chinese Swords"
 description = ""
-traits = []
+traits = ["unobtainable"]
 
 [WEAPON_BUTTERFLY_SWORDS]
 name = "Butterfly Swords"
@@ -2578,58 +2587,58 @@ enchantments = ["overheat"]
 [WEAPON_XMAS15_CANES]
 name = "Caramel Shuang Gou"
 description = "Caramel Shuang Gou are the 2015 Christmas special weapon in Shadow Fight 2. Defeating the challenger Festivus during the Christmas 2015 update rewarded the player with this weapon. Unlike its 2014 counterpart, they are enchanted with Lifesteal and feature a different Stance."
-traits = ["xmas15"]
+traits = ["xmas15", "ny16"]
 enchantments = ["lifesteal"]
 
 [ARMOR_XMAS15_SANTA]
 name = "Frosty Breastplate"
 description = ""
-traits = ["xmas15"]
+traits = ["xmas15", "ny16"]
 enchantments = ["rejuvenation"]
 
 [HELM_XMAS15_HORNS]
 name = "Antlers Of The Forest Spirit"
 description = ""
-traits = ["xmas15"]
+traits = ["xmas15", "ny16"]
 enchantments = ["overheat"]
 
 [HELM_XMAS15_SANTA]
 name = "Face of Christmas"
 description = ""
-traits = ["xmas15"]
+traits = ["xmas15", "ny16"]
 enchantments = ["damage_absorption"]
 
 [RANGED_XMAS15_SNOWBALLS]
 name = "Snow Charges"
 description = ""
-traits = ["xmas15"]
+traits = ["xmas15", "ny16"]
 enchantments = ["stun"]
 
 [WEAPON_XMAS14_CANES]
 name = "Candy Canes"
 description = "Candy Canes are the 2014 Christmas special weapon in Shadow Fight 2. Defeating Festivus during the 2014 Christmas update rewarded the players with his weapon, the Candy Canes. These weapons work like the Shuang Gou, and have a unique stance."
-traits = ["xmas14"]
+traits = ["xmas14", "ny15"]
 enchantments = ["weakness"]
 
 [ARMOR_XMAS14_SANTA]
 name = "Christmas Spirit"
 description = ""
-traits = ["xmas14"]
+traits = ["xmas14", "ny15"]
 
 [HELM_XMAS14_HORNS]
 name = "Reindeer Horns"
 description = ""
-traits = ["xmas14"]
+traits = ["xmas14", "ny15"]
 
 [HELM_XMAS14_SANTA]
 name = "Beard of Frost"
 description = ""
-traits = ["xmas14"]
+traits = ["xmas14", "ny15"]
 
 [RANGED_XMAS14_SNOWBALLS]
 name = "Snowballs"
 description = ""
-traits = ["xmas14"]
+traits = ["xmas14", "ny15"]
 
 [HELM_CRYSTALLINE]
 name = "Crystalloid Visor"
@@ -2929,48 +2938,49 @@ enchantments = ["poisoning"]
 [ARMOR_CHNY20_HOODIE]
 name = "Game Fan's Hoodie"
 description = ""
-traits = ["nintendo_switch_edition"]
+traits = ["chny21", "chny22", "nintendo_switch_edition"]
 enchantments = ["regeneration"]
 
 [HELM_CHNY20_PANDA]
 name = "Adorable Panda"
 description = ""
-traits = ["nintendo_switch_edition"]
+traits = ["chny21", "chny22", "nintendo_switch_edition"]
 enchantments = ["magic_recharge"]
 
 [WEAPON_CHNY20_PANDA]
 name = "Panda Cuddles"
 description = "Panda Cuddles are the 2018 Valentine's Day special weapon in Shadow Fight 2. They were obtained by purchasing the Dragon's Chest for 250 Coins of Love or 149 gems. Coin of Love was the special currency for the 2018 Valentine and Chinese New Year, Chinese New Year 2020,2021,2022 and 2023 updates, which could be obtained by defeating raid-bosses, with stronger bosses giving more Coins. Panda Cuddles are a pair of gloves with the shape of Panda's claws. They work like the Katars and come enchanted with the Time Bomb enchantment.In the version for Nintendo Switch consoles, you can buy them on the third act."
-traits = ["vd18", "chny18", "chny21", "chny22", "nintendo_switch_edition"]
+traits = ["chny21", "chny22", "nintendo_switch_edition"]
 enchantments = ["time_bomb"]
 
 [WEAPON_CHNY20_STAFF]
 name = "Chinese Dragon Staff"
 description = "Chinese Dragon Staff is the 2018 Chinese New Year special weapon in Shadow Fight 2. It was obtainable by purchasing the Dragon's Chest for 250 Coins of Love or 149 gems. Coin of Love was the special currency for the 2018 Valentine's Day and the Chinese New Year update, which could be obtained by defeating raid-bosses, with stronger bosses giving more Coins of Love. Chinese Dragon Staff works like the Staff and comes enchanted with Overheat."
-traits = ["vd18", "chny18", "nintendo_switch_edition"]
+traits = ["chny21", "chny22", "nintendo_switch_edition"]
 enchantments = ["overheat"]
 
 [ARMOR_CHNY20_TRADITIONAL]
 name = "Dragon's Scale"
 description = ""
-traits = []
+traits = ["chny21", "chny22"]
+enchantments = ["damage_return"]
 
 [HELM_CHNY20_TRADITIONAL]
 name = "Hat of Generous Gifts"
 description = ""
-traits = ["nintendo_switch_edition"]
+traits = ["chny21", "chny22", "nintendo_switch_edition"]
 enchantments = ["frenzy"]
 
 [RANGED_CHNY20_TRADITIONAL]
 name = "Burning Battle Citrus"
 description = ""
-traits = []
+traits = ["chny21", "chny22"]
 enchantments = ["bleeding"]
 
 [RANGED_VAL20_AXE]
 name = "Broken Hearts"
 description = ""
-traits = ["vd20"]
+traits = ["vd20", "special_edition", "nintendo_switch_edition"]
 
 [WEAPON_VAL20_FANS]
 name = "Fans Of Passion"
@@ -3018,7 +3028,7 @@ enchantments = ["damage_absorption", "rejuvenation"]
 [WEAPON_HW17_DAGGERS]
 name = "Death's Jaw"
 description = "Death's Jaw are a pair of Halloween 2017 special weapons in Shadow Fight 2. They were obtainable during the Halloween 2017 update, as a possible reward by purchasing the Mystical Chest. In order to purchase the chest, players needed 250 bone coins or 199 gems. Bone coins could be obtained by defeating Whisper, the Halloween 2017 special raid-boss. Whisper herself wields these weapons. These weapons came enchanted with the Bleeding enchantment. Death's Jaw have the same mechanics as the Hack Knives from Act VII. This weapon is also available on the Nintendo Switch."
-traits = ["nintendo_switch_edition", "hw17", "hw20"]
+traits = ["nintendo_switch_edition", "hw17", "hw19", "hw20", "hw24"]
 enchantments = [
   "enfeeble", # Only on NS Edition
   "bleeding",
@@ -3027,48 +3037,48 @@ enchantments = [
 [WEAPON_HW17_STAFF]
 name = "Voodoo Spine"
 description = "Voodoo Spine is a Halloween 2017 special weapon in Shadow Fight 2. It was obtainable during Halloween 2017 update, as a possible reward by purchasing the Mystical Chest. In order to purchase the chest, players needed 250 bone coins or 199 gems. Bone coins could be obtained by defeating Whisper, the Halloween 2017 special raid-boss. Voodoo Spine is a stick with a bird's skull attached on it. The weapon came enchanted with the Magic Recharge enchantment. It functions similar to Staff."
-traits = ["nintendo_switch_edition", "hw17", "hw20"]
+traits = ["nintendo_switch_edition", "hw17", "hw19", "hw20", "hw24"]
 enchantments = ["magic_recharge"]
 
 [RANGED_HW17_NEEDLES]
 name = "Cursed Pins"
 description = ""
-traits = ["hw17", "nintendo_switch_edition"]
+traits = ["hw17", "hw19", "hw20", "hw24", "nintendo_switch_edition"]
 enchantments = ["frenzy"]
 
 [HELM_HW17_CYLINDER]
 name = "Baroness Cylinder"
 description = ""
-traits = ["hw17"]
+traits = ["hw17", "hw19", "hw20", "hw24"]
 enchantments = ["damage_return"]
 
 [ARMOR_HW17_CLOAK]
 name = "Voodoo Vest"
 description = ""
-traits = ["hw17", "nintendo_switch_edition"]
+traits = ["hw17", "hw19", "hw20", "hw24", "nintendo_switch_edition"]
 enchantments = ["damage_return"]
 
 [MAGIC_HW17_VOODOO]
 name = "Dark Blood Magic"
 description = "Dark Blood Magic is the Halloween 2017 special magic amulet in Shadow Fight 2. It was obtainable during Halloween 2017 update, as a possible reward by purchasing the Mystical Chest. In order to purchase the chest, players need 250 bone coins or spend 199 gems. Bone coins can be obtained by defeating Whisper, the Halloween 2017 special raid-boss. Whisper herself also uses this magic. It is enchanted with the Bleeding enchantment. Dark Blood Magic functions like the Medium Charges of Darkness."
-traits = ["hw17", "nintendo_switch_edition"]
+traits = ["hw17", "hw19", "hw20", "hw24", "nintendo_switch_edition"]
 enchantments = ["bleeding"]
 
 [HELM_WOODOO_HW20]
 name = "Face of the Grim Baron"
 description = ""
-traits = ["hw20"]
+traits = ["hw19", "hw20"]
 
 [ARMOR_WOODOO_HW20]
 name = "Grim Baron's Coat"
 description = ""
-traits = ["hw20"]
+traits = ["hw19", "hw20"]
 enchantments = ["shielding"]
 
 [RANGED_HW20_SKULL]
 name = "Grim Baron's Mark"
 description = ""
-traits = ["hw20"]
+traits = ["hw19", "hw20"]
 enchantments = ["frenzy"]
 
 [ARMOR_CHNY21_BULL]
@@ -3277,29 +3287,29 @@ enchantments = ["time_bomb"]
 
 [HELM_BP_S1_GUARDIAN]
 name = "Heartwood"
-traits = ["set_forest_guardian", "xmas21"]
+traits = ["set_forest_guardian", "xmas21", "ny22"]
 enchantments = ["icy_resistance"]
 
 [ARMOR_BP_S1_GUARDIAN]
 name = "Deadfall"
-traits = ["set_forest_guardian", "xmas21"]
+traits = ["set_forest_guardian", "xmas21", "ny22"]
 enchantments = ["icy_resistance"]
 
 [WEAPON_BP_S1_GUARDIAN]
 name = "Beast's Fury"
 description = "Beast's Fury is a special weapon in Shadow Fight 2. It is the weapon of the Forest Guardian Set. This weapon is obtainable through the Battle Pass during Christmas and New Year 2022 and 2025 event, by purchase Premium Pass to unlock VIP rewards. Beast's Fury was wielded by Shurale, who was the main boss of the event."
-traits = ["set_forest_guardian", "xmas21"]
+traits = ["set_forest_guardian", "xmas21", "ny22"]
 enchantments = ["icy_resistance"]
 
 [MAGIC_BP_S1_GUARDIAN]
 name = "Death Grip"
 description = "Death Grip is a special magic amulet in Shadow Fight 2. This magic is obtainable through the Battle Pass during New Year 2022 and 2025 event, by purchasing Premium Pass to unlock VIP rewards."
-traits = ["set_forest_guardian", "xmas21"]
+traits = ["set_forest_guardian", "xmas21", "ny22"]
 enchantments = ["icy_resistance"]
 
 [RANGED_BP_S1_GUARDIAN]
 name = "Marten's Bite"
-traits = ["set_forest_guardian", "xmas21"]
+traits = ["set_forest_guardian", "xmas21", "ny22"]
 enchantments = ["icy_resistance"]
 
 [WEAPON_CHNY22_SPEAR]
@@ -3394,12 +3404,12 @@ enchantments = ["poisoning"]
 
 [HELM_BP_S4_SCRIPTWRITER]
 name = "Lights, camera, action!"
-traits = ["set_director"]
+traits = ["set_director", "hw22"]
 enchantments = ["plot_twist"]
 
 [ARMOR_BP_S4_SCRIPTWRITER]
 name = "Fourth Wall"
-traits = ["set_director"]
+traits = ["set_director", "hw22"]
 enchantments = ["plot_twist"]
 
 [WEAPON_BP_S4_SCRIPTWRITER]
@@ -3408,18 +3418,18 @@ description = """
 Don't cross the director! is a special weapon in Shadow Fight 2. It is the weapon of the Director Set. Two-handed Blunt is heavy and slow, but its attacks deal high damage, and has medium range. This weapon wielded by Architect, main boss of the event.
 This weapon is obtainable through the Battle Pass during Halloween event 2022, by purchase Premium Pass to unlock VIP rewards.
 """
-traits = ["set_director"]
+traits = ["set_director", "hw22"]
 enchantments = ["plot_twist"]
 
 [MAGIC_BP_S4_SCRIPTWRITER]
 name = "Smoke and mirrors"
 description = "Smoke and Mirrors is a special magic amulet in Shadow Fight 2. It is the magic of the Director Set. This magic is obtainable through the Battle Pass during Halloween event 2022, by purchase Premium Pass to unlock VIP rewards."
-traits = ["set_director"]
+traits = ["set_director", "hw22"]
 enchantments = ["plot_twist"]
 
 [RANGED_BP_S4_SCRIPTWRITER]
 name = "Film Damage"
-traits = ["set_director"]
+traits = ["set_director", "hw22"]
 enchantments = ["plot_twist"]
 
 [WEAPON_MINI_EVENT_KNIFE]
@@ -3431,17 +3441,17 @@ enchantments = ["lifesteal"]
 [RANGED_BP_S5_TIME_SHIFTER]
 name = "Chronos's Razor"
 description = ""
-traits = ["set_chronos", "xmas22"]
+traits = ["set_chronos", "xmas22", "ny23"]
 enchantments = ["time_shift"]
 
 [HELM_BP_S5_TIME_SHIFTER]
 name = "Stonecold"
-traits = ["set_chronos", "xmas22"]
+traits = ["set_chronos", "xmas22", "ny23"]
 enchantments = ["time_shift"]
 
 [ARMOR_BP_S5_TIME_SHIFTER]
 name = "Biting Frost"
-traits = ["set_chronos", "xmas22"]
+traits = ["set_chronos", "xmas22", "ny23"]
 enchantments = ["time_shift"]
 
 [WEAPON_BP_S5_TIME_SHIFTER]
@@ -3450,19 +3460,19 @@ description = """
 Snowpiercer is a special weapon in Shadow Fight 2. It is the weapon of the Director Set. This weapon wielded by Freeze Jr., main boss of the event.
 This weapon is obtainable through the Battle Pass during New Year event 2023, by purchase Premium Pass to unlock VIP rewards.
 """
-traits = ["set_chronos", "xmas22"]
+traits = ["set_chronos", "xmas22", "ny23"]
 enchantments = ["time_shift"]
 
 [MAGIC_BP_S5_TIME_SHIFTER]
 name = "Continuum"
 description = "Continuum is a special magic amulet in Shadow Fight 2. It is the magic of the Chronos Set. This magic is obtainable through the Battle Pass during New Year event 2023, by purchase Premium Pass to unlock VIP rewards. "
-traits = ["set_chronos", "xmas22"]
+traits = ["set_chronos", "xmas22", "ny23"]
 enchantments = ["time_shift"]
 
 [WEAPON_SWORD_NY23_PAID_OFFER]
 name = "Devotion"
 description = "The Devotion is a weapon obtained as a new year gift by Nekki in Shadow Fight 2. Players who logged in from December 31st, 2022 to an unspecified date received this weapon along with 100 gems. This weapon has the same moveset from the unobtainable Sawblade one-handed sword wielded by the ghost Mephisto and the fighter Emerald."
-traits = ["xmas22", "gift"]
+traits = ["xmas22", "ny23", "gift"]
 enchantments = ["lifesteal"]
 
 [WEAPON_C1_Z4_NEO_WANDERER]
@@ -3531,31 +3541,31 @@ enchantments = ["lifesteal", "frenzy"]
 [RANGED_NY2024_AXE]
 name = "Hel's Kiss"
 description = ""
-traits = ["xmas23"]
+traits = ["xmas23", "ny24"]
 enchantments = ["bleeding"]
 
 [HELM_NY2024_SHAKO]
 name = "Grenadier's Shako"
 description = ""
-traits = ["xmas23"]
+traits = ["xmas23", "ny24"]
 enchantments = ["damage_absorption"]
 
 [ARMOR_NY2024_VIKING_CLOTHES]
 name = "Berserk's Legacy"
 description = ""
-traits = ["xmas23"]
+traits = ["xmas23", "ny24"]
 enchantments = ["frenzy"]
 
 [WEAPON_NY2024_MUSKET]
 name = "Fury of Austerlitz"
 description = "Fury of Austerlitz this is an exclusive weapon in Shadow Fight 2 for the New Year 2024. It is a musket from the 1700s British soldier, with gold patterns that are visible on it. Despite its appearance, the Fury of Austerlitz is mostly used as a polearm with its bayonet, rather than a ranged weapon. When performing the super slash, it fires a bullet that is weaker than ranged weapons, and cannot be blocked. The bullets deal weapon damage but are not categorized as weapons, ranged weapons, or magic attack. Thus, they do not follow any enchantments on these equipment."
-traits = ["xmas23"]
+traits = ["xmas23", "ny24"]
 enchantments = ["precision"]
 
 [MAGIC_NY2024_AMULET]
 name = "Cold Fusion"
 description = "Cold Fusion is a special magic amulet in Shadow Fight 2, available exclusive during 2023 Christmas and New Year event. It can be obtained from Sly's Bag of Rarities or in game offer."
-traits = ["xmas23"]
+traits = ["xmas23", "ny24"]
 enchantments = ["enfeeble"]
 
 [MAGIC_CYBER_DRAGON_RAY]
@@ -3675,7 +3685,7 @@ description = """
 False Gods is a special event weapon exclusive to the Shadow of Eternity 2024 event in Shadow Fight 2. It can be purchased in a special paid offer for $2.99 USD.
 This weapon is used by Berstuuk, the mad scientist. 
 """
-traits = ["offer"]
+traits = ["hw24", "offer"]
 enchantments = ["poisoning"]
 
 [WEAPON_SCYTHE_FALL_24]
@@ -3685,7 +3695,7 @@ traits = []
 enchantments = ["lifesteal"]
 
 [HELM_FALL_24]
-name = "Poisonеd Wisdom"
+name = "Poisoned Wisdom"
 description = ""
 traits = []
 
@@ -3760,24 +3770,24 @@ enchantments = ["frenzy"]
 [HELM_NEW_YEAR_25]
 name = "Blinding Truth"
 description = ""
-traits = ["offer"]
+traits = ["offer", "ny25"]
 enchantments = ["regeneration"]
 
 [ARMOR_NEW_YEAR_25]
 name = "Will's Prisoner"
 description = ""
-traits = []
+traits = ["offer", "ny25"]
 
 [WEAPON_NEW_YEAR_25]
 name = "Lost Desire"
 description = "Lost Desire is a special event weapon exclusive to the New Year 2025 event in Shadow Fight 2. It can be purchased in a special paid offer for real money."
-traits = ["offer"]
+traits = ["offer", "ny25"]
 enchantments = ["frenzy"]
 
 [MAGIC_NEW_YEAR_25]
 name = "Martyr's Sacrifice"
 description = "Martyr's Sacrifice is a special magic amulet in Shadow Fight 2, available exclusive during 2025 Christmas and New Year event. This magic is available exclusive from an offer via in-game purchase."
-traits = ["offer"]
+traits = ["offer", "ny25"]
 enchantments = ["bleeding"]
 
 [MAGIC_AZTEC_24]
@@ -3865,119 +3875,126 @@ enchantments = ["precision"]
 
 [WEAPON_RITUAL_25]
 name = "Ashes of Generation"
-description = ""
+description = "Ashes of Generation is a weapon that can be purchased in a special offer in Shadow Fight 2. It can be purchased for real money for $2.99"
 traits = ["offer"]
 
 [NY20_ARMOR_SANTA]
 name = "Winter Breath Jacket"
 description = ""
-traits = []
+traits = ["xmas19", "ny20"]
 enchantments = ["regeneration"]
 
 [NY20_ARMOR_MANTLE]
 name = "Padded Jacket"
 description = ""
-traits = ["nintendo_switch_edition", "xmas17", "xmas19"]
+traits = ["nintendo_switch_edition", "xmas19", "ny20"]
 enchantments = ["shielding"]
 
 [NY20_HELM_HAT]
 name = "Fur Ear-Flap"
 description = ""
-traits = ["xmas19", "nintendo_switch_edition"]
+traits = ["xmas18", "ny19", "nintendo_switch_edition"]
 enchantments = ["critical_protection"]
 
 [NY20_HELM_HORNS]
 name = "Christmas Trophy"
 description = ""
-traits = []
+traits = ["xmas19", "ny20"]
 enchantments = ["damage_return"]
 
 [NY20_HELM_SANTA]
 name = "Frost Beard"
 description = ""
-traits = []
+traits = ["xmas19", "ny20"]
 enchantments = ["regeneration"]
 
 [NY20_MAGIC_ICEBALL]
 name = "Shard of Eternal Ice"
-description = ""
-traits = ["special_edition", "nintendo_switch_edition"]
+description = """Shard of Eternal Ice is a magic in Shadow Fight 2. It was obtainable from the Christmas 2016 Special chest. In the Special Edition, this magic is available in the shop. It is used by the Christmas 2016 special Raid-boss, Freeze.
+In the 2019 Christmas update, Shard of Eternal Ice comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest."""
+traits = ["special_edition", "nintendo_switch_edition", "xmas19", "ny20"]
 enchantments = ["bloodrage"]
 
 [NY20_MAGIC_SNOWBALL]
 name = "Sugar Flash"
-description = ""
-traits = ["nintendo_switch_edition"]
+description = """Sugar Flash is the New Year 2018 and 2019 special magic amulet in Shadow Fight 2. It can be obtained as a possible reward by purchasing the Gingerbread Chest during New Year 2018. In order to purchase the chest, players need 250 mint coins or 199 gems. Mint coins can be obtained by defeating Candy, the New Year 2018 special raid-boss. Candy herself uses this magic. It is enchanted with the Stun enchantment, and functions like the Minor Charge of Darkness.
+In the 2019 Christmas update, Sugar Flash comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest."""
+traits = ["nintendo_switch_edition", "xmas19", "ny20"]
 enchantments = ["stun"]
 
 [NY20_RANGED_COOKIE]
 name = "Gingerbread Surprises"
 description = ""
-traits = []
+traits = ["xmas19", "ny20"]
 enchantments = ["time_bomb"]
 
 [NY20_RANGED_DONUT]
 name = "Juicy Donut"
 description = ""
-traits = ["nintendo_switch_edition"]
+traits = ["nintendo_switch_edition", "xmas19", "ny20"]
 enchantments = ["poisoning"]
 
 [NY20_WEAPON_AXES]
 name = "Surprise Waffles"
-description = ""
-traits = ["nintendo_switch_edition", "xmas18", "xmas19"]
+description = """Surprise Waffles are a New Year 2018 and 2019 special weapon in Shadow Fight 2. They are a pair of giant rooster-shaped lollipops. Surprise Waffles could be obtained as a possible reward by purchasing the Gingerbread Chest during New Year 2018. In order to purchase the chest, players needed 250 new year coins or 199 gems. New year coins could be obtained by defeating Candy, the New Year 2018 special raid-boss. Candy herself wields these weapons. Surprise Waffles were also obtainable during New Year 2019, as a possible first place reward for defeating Karcer. The weapons come enchanted with the Stun enchantment.
+In the 2019 Christmas update, Surprise Waffles comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest."""
+traits = ["nintendo_switch_edition", "xmas19", "ny20"]
 enchantments = ["stun"]
 
 [NY20_WEAPON_CANDY]
 name = "Candy Rage"
-description = ""
-traits = ["xmas16", "xmas19"]
+description = """Candy Rage are a 2016 Christmas special weapon in Shadow Fight 2. They were one of the possible rewards which could be won by defeating Freeze, the 2016 Christmas special raid-boss. They were also obtainable from the Crystal Ice Chest, which could be bought from the shop during the Christmas 2016 update. Candy Rage comes enchanted with the Stun enchantment.
+In the 2019 Christmas update, Candy Rage comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest."""
+traits = ["xmas19", "ny20"]
 enchantments = ["stun"]
 
 [NY20_WEAPON_GLAIVE]
 name = "Ringing Spruce Whirl"
-description = ""
-traits = ["xmas16", "xmas19"]
+description = """Ringing Spruce Whirl is a 2016 Christmas special weapon in Shadow Fight 2. It is used by Freeze, the 2016 Christmas special raid-boss. It was one of the possible rewards which could be won by defeating Freeze. It was also obtainable from the Crystal Ice Chest, which could be bought from the shop during the Christmas 2016 update. Ringing Spruce Whirl functions similar to Glaive and comes enchanted with the Enfeeble enchantment.
+In the 2019 Christmas update, Ringing Spruce Whirl comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest."""
+traits = ["xmas19", "ny20"]
 enchantments = ["enfeeble"]
 
 [NY20_WEAPON_MACE]
 name = "Caramel Boom"
-description = ""
-traits = ["nintendo_switch_edition", "xmas18", "xmas19"]
+description = """Caramel Boom is a New Year 2018 and 2019 special weapon in Shadow Fight 2. It is a giant green lollipop with red spikes on it. The weapon could be obtained as a possible reward by purchasing the Gingerbread Chest during New Year 2018. In order to purchase the chest, players needed 250 New Year coins or 199 gems. New Year coins could be obtained by defeating Candy, the New Year 2018 special raid-boss. Caramel Boom was also obtainable during New Year 2019, as a possible first place reward for defeating Karcer. The weapon comes enchanted with the Poisoning enchantment. Caramel Boom functions like the Two-handed Mace.
+In the 2019 Christmas update, Caramel Boom comes with a new appearance. It can be obtained after defeating Freeze or from the Gingerbread Chest.
+The Caramel Boom can also be purchased as an regular weapon in the Nintendo Switch version of SF2."""
+traits = ["nintendo_switch_edition", "xmas19", "ny20"]
 enchantments = ["poisoning"]
 
 [NY21_ARMOR_CUIRASS]
 name = "Sweet Cuirass"
 description = ""
-traits = ["xmas20"]
+traits = ["xmas20", "ny21"]
 enchantments = ["regeneration"]
 
 [NY21_HELM_BREAD]
 name = "Croissant Hat"
 description = ""
-traits = ["xmas20"]
+traits = ["xmas20", "ny21"]
 enchantments = ["frenzy"]
 
 [NY21_HELM_ICED]
 name = "Ice Crown"
 description = ""
-traits = ["xmas20"]
+traits = ["xmas20", "ny21"]
 enchantments = ["regeneration"]
 
 [NY21_MAGIC_SNOW_CLOUD]
 name = "Prisoned Blizzard"
-description = ""
-traits = ["xmas20"]
+description = "Prisoned Blizzard is the New Year 2021 special magic amulet in Shadow Fight 2. It can be obtained as a possible reward by purchasing the Gingerbread Chest during New Year 2021. In order to purchase the chest, players need 500 mint coins or 199 gems. Mint coins can be obtained by defeating Candy, the New Year 2021 special raid-boss. It is enchanted with the Bloodrage enchantment, and functions like the Toxic Cloud."
+traits = ["xmas20", "ny21"]
 enchantments = ["bloodrage"]
 
 [NY21_RANGED_SNOWRIKENS]
 name = "Fluffy Snowflakes"
 description = ""
-traits = ["xmas20"]
+traits = ["xmas20", "ny21"]
 enchantments = ["bloodrage"]
 
 [NY21_WEAPON_ICEKNUCKLES]
 name = "Fruit Icicle"
-description = ""
-traits = ["xmas20"]
+description = "Fruit Icicle are a New Year 2021 special weapon in Shadow Fight 2. They were obtainable during New Year 2021 update, as a possible reward by purchasing the Gingerbread Chest. In order to purchase the chest, players needed 500 Mint coins or 199 Gems. Mint coins could be obtained by defeating Candy. The weapons come enchanted with Magic Recharge enchantment."
+traits = ["xmas20", "ny21"]
 enchantments = ["magic_recharge"]
