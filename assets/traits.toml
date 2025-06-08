@@ -1,5 +1,5 @@
 [boss]
-display = "Boss Weapon"
+display = "Boss Item"
 color = "0xFFFFD66B"
 
 [unobtainable]
@@ -297,3 +297,4 @@ color = "0xFF254D70"
 [deceased]
 display = "Deceased"
 color = "0xFFD3D3D3"
+
